@@ -4,7 +4,7 @@ pipeline {
         maven 'maven_3_5_0'
     }
     environment {
-      registry = "rahilnawab/devops-integration"
+      registry = "anjieracpd/CI"
       registryCredential = 'dockerhub-pwd'
       dockerImage = ''
     }
